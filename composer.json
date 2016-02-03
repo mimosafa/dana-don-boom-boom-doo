@@ -1,0 +1,20 @@
+{
+    "name": "mimosafa/dana-don-boom-boom-doo",
+    "type": "wordpress-plugin",
+    "license": "GPLv2+",
+    "authors": [
+        {
+            "name": "Toshimichi Mimoto",
+            "email": "mimosafa@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mimosafa/wp-core-repository.git"
+        }
+    ],
+    "require": {
+        "mimosafa/wp-core-repository": "dev-develop"
+    }
+}

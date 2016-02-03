@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d28b4be35781904c23b1cebce8e61ea4",
+    "content-hash": "3ff12e37a3993839c161055af94eb51a",
+    "packages": [
+        {
+            "name": "mimosafa/wp-core-repository",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mimosafa/wp-core-repository.git",
+                "reference": "cccfb710694e87ad62da105dd1182db40ecf4b95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mimosafa/wp-core-repository/zipball/cccfb710694e87ad62da105dd1182db40ecf4b95",
+                "reference": "cccfb710694e87ad62da105dd1182db40ecf4b95",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mimosafa\\WP\\CoreRepository\\": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Toshimichi Mimoto",
+                    "email": "mimosafa@gmail.com"
+                }
+            ],
+            "description": "WordPress post type, taxonomy registration helper.",
+            "keywords": [
+                "WordPress",
+                "post_type",
+                "taxonomy",
+                "wp"
+            ],
+            "support": {
+                "source": "https://github.com/mimosafa/wp-core-repository/tree/develop",
+                "issues": "https://github.com/mimosafa/wp-core-repository/issues"
+            },
+            "time": "2016-02-02 10:21:26"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "mimosafa/wp-core-repository": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
