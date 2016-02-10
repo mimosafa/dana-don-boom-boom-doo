@@ -8,7 +8,7 @@
  * Plugin URI: https://github.com/mimosafa/dana-don-boom-boom-doo
  * Text Domain: dana-don-boom-boom-doo
  * Domain Path: /languages
- * @package Dana-don-boom-boom-doo
+ * @package mimosafa/dana-don-boom-boom-doo
  */
 
 if ( DanaDonBoomBoomDooRequirements::check() ) {
