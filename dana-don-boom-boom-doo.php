@@ -13,7 +13,7 @@
 
 if ( DanaDonBoomBoomDooRequirements::check() ) {
 	define( 'DANA_DON_BOOM_BOOM_DOO', true );
-	require_once __DIR__ . '/vendor/autoload.php';
+	dana_don_boom_boom_doo_autoloader();
 }
 
 /**
@@ -48,7 +48,7 @@ class DanaDonBoomBoomDooRequirements {
 			$instance = new self();
 			return $instance->compare();
 		}
-		return true;
+		return false;
 	}
 
 	private function __construct() {
@@ -88,4 +88,14 @@ class DanaDonBoomBoomDooRequirements {
 		settings_errors( 'dana-don-boom-boom-doo-requirement' );
 	}
 
+}
+
+/**
+ * Class Loader.
+ *
+ * @return Composer\Autoload\ClassLoader
+ */
+function dana_don_boom_boom_doo_autoloader() {
+	static $loader;
+	return $loader ?: $loader = require_once __DIR__ . '/vendor/autoload.php';
 }
