@@ -12,9 +12,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/mimosafa/wp-core-repository.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mimosafa/wp-ui.git"
         }
     ],
     "require": {
-        "mimosafa/wp-core-repository": "dev-develop"
+        "mimosafa/wp-core-repository": "dev-develop",
+        "mimosafa/wp-ui": "dev-develop"
     }
 }

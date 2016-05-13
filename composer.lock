@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d28b4be35781904c23b1cebce8e61ea4",
-    "content-hash": "3ff12e37a3993839c161055af94eb51a",
+    "hash": "79d83f01a14e21d96e0dafbcd4231be8",
+    "content-hash": "60daea5389f42e335609686f5cee69a2",
     "packages": [
         {
             "name": "mimosafa/wp-core-repository",
@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimosafa/wp-core-repository.git",
-                "reference": "cccfb710694e87ad62da105dd1182db40ecf4b95"
+                "reference": "a55237b38b5b28edd7abc8b7b9764a80555b60c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimosafa/wp-core-repository/zipball/cccfb710694e87ad62da105dd1182db40ecf4b95",
-                "reference": "cccfb710694e87ad62da105dd1182db40ecf4b95",
+                "url": "https://api.github.com/repos/mimosafa/wp-core-repository/zipball/a55237b38b5b28edd7abc8b7b9764a80555b60c4",
+                "reference": "a55237b38b5b28edd7abc8b7b9764a80555b60c4",
                 "shasum": ""
             },
             "require": {
@@ -47,14 +47,55 @@
                 "source": "https://github.com/mimosafa/wp-core-repository/tree/develop",
                 "issues": "https://github.com/mimosafa/wp-core-repository/issues"
             },
-            "time": "2016-02-02 10:21:26"
+            "time": "2016-02-09 10:01:04"
+        },
+        {
+            "name": "mimosafa/wp-ui",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mimosafa/wp-ui.git",
+                "reference": "268e94ae4c949a1c8fa17a96570def40822cba63"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mimosafa/wp-ui/zipball/268e94ae4c949a1c8fa17a96570def40822cba63",
+                "reference": "268e94ae4c949a1c8fa17a96570def40822cba63",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mimosafa\\WP\\UI\\": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Toshimichi Mimoto",
+                    "email": "mimosafa@gmail.com"
+                }
+            ],
+            "description": "WordPress admin UI helper.",
+            "keywords": [
+                "WordPress",
+                "admin"
+            ],
+            "support": {
+                "source": "https://github.com/mimosafa/wp-ui/tree/develop",
+                "issues": "https://github.com/mimosafa/wp-ui/issues"
+            },
+            "time": "2016-05-12 10:41:46"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mimosafa/wp-core-repository": 20
+        "mimosafa/wp-core-repository": 20,
+        "mimosafa/wp-ui": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
