@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "79d83f01a14e21d96e0dafbcd4231be8",
-    "content-hash": "60daea5389f42e335609686f5cee69a2",
+    "hash": "a3d26d3e8d76a112dd56db033eb31fde",
+    "content-hash": "5971fd05bd27379eeed4f266c53842c9",
     "packages": [
         {
             "name": "mimosafa/wp-core-repository",
@@ -50,17 +50,59 @@
             "time": "2016-02-09 10:01:04"
         },
         {
+            "name": "mimosafa/wp-route",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mimosafa/wp-route.git",
+                "reference": "6512e18a039aef7327d2493b2bfcfc82acef7bb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mimosafa/wp-route/zipball/6512e18a039aef7327d2493b2bfcfc82acef7bb1",
+                "reference": "6512e18a039aef7327d2493b2bfcfc82acef7bb1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mimosafa\\WP\\Route\\": ""
+                }
+            },
+            "authors": [
+                {
+                    "name": "Toshimichi Mimoto",
+                    "email": "mimosafa@gmail.com"
+                }
+            ],
+            "description": "WordPress request router.",
+            "keywords": [
+                "WordPress",
+                "router",
+                "routing",
+                "wp"
+            ],
+            "support": {
+                "source": "https://github.com/mimosafa/wp-route/tree/master",
+                "issues": "https://github.com/mimosafa/wp-route/issues"
+            },
+            "time": "2016-07-04 11:34:07"
+        },
+        {
             "name": "mimosafa/wp-ui",
             "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimosafa/wp-ui.git",
-                "reference": "268e94ae4c949a1c8fa17a96570def40822cba63"
+                "reference": "870988679915691e6f5ee21fd4b6d5847a8039ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimosafa/wp-ui/zipball/268e94ae4c949a1c8fa17a96570def40822cba63",
-                "reference": "268e94ae4c949a1c8fa17a96570def40822cba63",
+                "url": "https://api.github.com/repos/mimosafa/wp-ui/zipball/870988679915691e6f5ee21fd4b6d5847a8039ab",
+                "reference": "870988679915691e6f5ee21fd4b6d5847a8039ab",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +129,7 @@
                 "source": "https://github.com/mimosafa/wp-ui/tree/develop",
                 "issues": "https://github.com/mimosafa/wp-ui/issues"
             },
-            "time": "2016-05-12 10:41:46"
+            "time": "2016-07-14 23:36:53"
         }
     ],
     "packages-dev": [],
@@ -95,7 +137,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "mimosafa/wp-core-repository": 20,
-        "mimosafa/wp-ui": 20
+        "mimosafa/wp-ui": 20,
+        "mimosafa/wp-route": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

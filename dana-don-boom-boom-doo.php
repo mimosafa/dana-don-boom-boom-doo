@@ -13,7 +13,12 @@
 
 if ( DanaDonBoomBoomDooRequirements::check() ) {
 	define( 'DANA_DON_BOOM_BOOM_DOO', true );
-	dana_don_boom_boom_doo_autoloader();
+	if ( ! class_exists( 'Composer\Autoload\ClassLoader' ) ) {
+		require_once __DIR__ . '/vendor/autoload.php';
+	}
+	$loader = new Composer\Autoload\ClassLoader();
+	$loader->setPsr4( 'mimosafa\\WP\\Route\\',  __DIR__ . '/vendor/mimosafa/wp-route' );
+	$loader->register();
 }
 
 /**
@@ -88,14 +93,4 @@ class DanaDonBoomBoomDooRequirements {
 		settings_errors( 'dana-don-boom-boom-doo-requirement' );
 	}
 
-}
-
-/**
- * Class Loader.
- *
- * @return Composer\Autoload\ClassLoader
- */
-function dana_don_boom_boom_doo_autoloader() {
-	static $loader;
-	return $loader ?: $loader = require_once __DIR__ . '/vendor/autoload.php';
 }

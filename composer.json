@@ -16,10 +16,15 @@
         {
             "type": "vcs",
             "url": "https://github.com/mimosafa/wp-ui.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mimosafa/wp-route.git"
         }
     ],
     "require": {
         "mimosafa/wp-core-repository": "dev-develop",
-        "mimosafa/wp-ui": "dev-develop"
+        "mimosafa/wp-ui": "dev-develop",
+        "mimosafa/wp-route": "dev-master"
     }
 }
